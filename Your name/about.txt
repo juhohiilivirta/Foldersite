@@ -1,0 +1,5 @@
+Organize your portfolio by folders, and Foldersite renders the content automatically at runtime.
+
+• `Your name` folder contains introduction and footer information
+• `Project` folder contains individual project folders
+• Each project folder contains one `.txt` file and any number of image files

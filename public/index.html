@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <section class="about" id="about"></section>
+    <section class="projects">
+      <div class="projects-header">
+        <div id="projects-title"></div>
+        <button id="projects-toggle" type="button" aria-label="Open projects menu" aria-expanded="false" aria-controls="project-list">≡</button>
+      </div>
+      <div id="project-list" class="project-list"></div>
+    </section>
+    <section id="project-detail" class="project-detail" hidden>
+      <button id="back" type="button" aria-label="Back">←</button>
+      <div class="view-controls" aria-label="Image view">
+        <button class="view-control is-active" type="button" data-view="grid" aria-label="Grid view">⊞</button>
+        <button class="view-control" type="button" data-view="carousel" aria-label="Carousel view">□</button>
+      </div>
+      <div id="about-images" class="about-gallery" hidden></div>
+      <div id="project-images" class="project-images"></div>
+    </section>
+  </main>
+  <footer id="footer" hidden></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
