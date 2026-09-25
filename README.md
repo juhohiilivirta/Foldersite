@@ -1,5 +1,7 @@
 # Your folders become your website with Foldersite.
 
+![Foldersite preview](https://github.com/juhohiilivirta/Foldersite/blob/main/Your%20name/preview.png)
+
 A lightweight portfolio website that reads text and image content directly from folders. No CMS, database, build process, or manual publishing step is required.
 
 ## What this project does
